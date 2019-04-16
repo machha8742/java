@@ -4,17 +4,6 @@
     <modelVersion>4.0.0</modelVersion>
     
     <parent>
-    <groupId>junit.org</groupId>
-	<artifactId>junit.org.artifact</artifactId>
-	<version>${junit.version}</version>
-
-	<name>junit</name>
-	<description>2357</description>
-	<url>junit</url>
-	<inceptionYear>2357</inceptionYear>
-    </parent>
-    
-    <parent>
         <groupId>com.github.xlongshu.maven</groupId>
         <artifactId>javaweb-starter</artifactId>
         <version>1.0.1</version>
@@ -47,12 +36,6 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
         </dependency>
-        <dependency>				
-             <groupId>junit.org</groupId>
-             <artifactId>junit.org.artifact</artifactId>
-	     <version>${junit.version}</version>
-	     <scope>test</scope>								
-        </dependency>	
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
